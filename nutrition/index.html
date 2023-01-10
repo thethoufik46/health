@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" width="device-width, initial-scale=1.0">
+	<title>AI\ NUTRITION</title>
+	<link rel="icon" href="img/favicon.png" type="image/x-icon"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+<style> .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2dcba7;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+ }</style>
+<body>
+	<div class="container-fluid">
+		<div class="col-md-12 background wow animated fadeIn">
+			<nav class="fixed-top">
+				<div class="row wow animated fadeInDown" style="animation-delay: 2.3s;">
+					<div class="col-md-3 text-center brand">
+						<img src="#" alt="img" class="img-fluid">
+					</div>
+					<div class="col-md-9 text-right list">
+						<ul>
+							<li><a href="login.html">LOG IN</a></li>
+							<li><a href="food.html">CLASSIFY</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div class="row">
+				<div class="col-md-4 left-part wow animated fadeInLeft" style="animation-delay: 0.5s;">
+					<img src="img/left.png" alt="img" class="img-fluid" width="370px">
+				</div>
+				<div class="col-md-4 text-center text-white text-part">
+					<h3 class="wow animated fadeIn" style="animation-delay: 2.9s;">Discover</h3>
+					<h1 class="wow animated fadeIn" style="animation-delay: 2.9s;">Ai Nutrition</h1>
+					<div class="row">
+						<div class="col-md-5 wow animated fadeInLeft" style="padding-right: 0;  padding-top: 4px; animation-delay: 3.4s;">
+							<hr class="hr1">
+						</div>
+						<div class="col-md-2 wow animated fadeIn" style="animation-delay: 2.9s;">
+							<img src="img/fork.png" alt="img" class="img-fluid" width="40px">
+						</div>
+						<div class="col-md-5 wow animated fadeInRight" style="padding-left: 0;  padding-top: 4px; animation-delay: 3.4s;">
+							<hr class="hr2">
+						</div>
+					</div>
+					<p class="wow animated fadeIn" style="animation-delay: 2.9s;">Ready to be opened</p>
+                    <label for="imageUpload"  class="wow animated zoomIn" style="animation-delay: 4s;"">
+                        Choose...
+                    </label>
+                    <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+					<br>
+					<br>
+					<br>
+					<a href="pridict.html" class="wow animated zoomIn" style="animation-delay: 4s;">Pridict</a> 
+                    <br>
+					<div class="bottom mx-auto wow animated fadeInUp" style="animation-delay: 1.5s;">
+						<img src="img/bottom.png" alt="img" class="img-fluid" width="450px">
+                        <a href="food.html" class="wow animated zoomIn" style="animation-delay: 4s;">MORE</a>
+					</div>
+                    <div class="image-section" style="display:none;">
+                        <div class="img-preview">
+                            <div id="imagePreview">
+                            </div>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-primary btn-lg " id="btn-predict">Predict!</button>
+                        </div>
+                    </div>
+                
+                    <div class="loader" style="display:none;"></div>
+                
+                    <h3 id="result">
+                        <span> </span>
+                    </h3>
+				</div>
+				<div class="col-md-4 right-part wow animated fadeInRight" style="animation-delay: 1s;">
+					<img src="img/right1.png" alt="img" class="img-fluid" width="370px" style="float: right;">
+				</div>
+			</div>
+		</div>
+
+    
+		<div class="col-md-12 our_story">
+			<div class="row m-0">
+				<div class="col-md-3 dish_cat_1">
+					
+					
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+
+					<img src="./img/5f9af974-b682-42d6-aa55-be47dd28907c.jpeg" alt="dish" class="img-responsive wow animated fadeInLeft" width="310px" style="padding: 30px 0 0 20px; animation-delay: 1.5s;">
+				</div>
+				<div class="col-md-6 mx-auto story wow animated fadeIn">
+					<h3 class="text-center">Our Story</h3>
+					<h1 class="text-center">LOVE FOR FOOD</h1>
+					<hr class="hr3">
+					<p> Each year, approximately 6,78,000 deaths are caused in the United
+                        States of America due to unhealthy diet. A typical American diet is
+                        too high in calories, fat, sugars, sodium, etc. Hence, people have
+                        became more proactive when it comes to health matters. Services like
+                        eating habit recorder and calorie/nutrition calculator have became
+                        extremely popular. They can make users aware of problems like
+                        obesity, cancer, diabetes, heart-disease, etc. that can be caused by
+                        unhealthy diets. Most of these services require the users to
+                        manually select a food item from a hierarchical menu which is a time
+                        consuming process and not so user friendly.	
+                    </p>
+				</div>
+				<div class="col-md-3 dish_cat_2">
+					<img src="./img/oo.jfif" alt="dish" class="img-responsive mx-auto wow animated fadeInRight" width="250px" style="padding-top: 45px; animation-delay: 1s;">
+					
+			</div>
+		</div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/wow.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	 	new WOW().init();
+	</script>
+</body>
+</html>
